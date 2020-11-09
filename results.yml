@@ -1,0 +1,57 @@
+# ==========================================================
+# = Solver Results                                         =
+# ==========================================================
+# ----------------------------------------------------------
+#   Problem Information
+# ----------------------------------------------------------
+Problem: 
+- Name: unknown
+  Lower bound: 8.0
+  Upper bound: 8.0
+  Number of objectives: 1
+  Number of constraints: 18
+  Number of variables: 17
+  Number of nonzeros: 66
+  Sense: minimize
+# ----------------------------------------------------------
+#   Solver Information
+# ----------------------------------------------------------
+Solver: 
+- Status: ok
+  Termination condition: optimal
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 5
+      Number of created subproblems: 5
+  Error rc: 0
+  Time: 0.030206918716430664
+# ----------------------------------------------------------
+#   Solution Information
+# ----------------------------------------------------------
+Solution: 
+- number of solutions: 1
+  number of solutions displayed: 1
+- Gap: 0.0
+  Status: optimal
+  Message: None
+  Objective:
+    obj:
+      Value: 8
+  Variable:
+    lado_a[1]:
+      Value: 1
+    lado_a[2]:
+      Value: 1
+    lado_a[5]:
+      Value: 1
+    lado_a[7]:
+      Value: 1
+    lado_b[0]:
+      Value: 1
+    lado_b[3]:
+      Value: 1
+    lado_b[4]:
+      Value: 1
+    lado_b[6]:
+      Value: 1
+  Constraint: No values
